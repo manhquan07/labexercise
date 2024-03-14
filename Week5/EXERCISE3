@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thong tin  sinh vien </title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.ProductName {font-weight: bold;}
+.ProductPrice {font-style: italic;}
+.ProductPrice:before {content: " - ";}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Product:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+<div>
+    <div class="Product"> 
+        <img src="Week5/manhquan.jpg" />
+        <div class="ProductDetails">
+            <span class="ProductName">Nguyen Manh Quan</span>
+            <span class="ProductID">23070197</span>
+        </div>
+    </div>    
+    <div class ="Product">
+        <img src="Week5/Ronaldo-Xe-Dap.jpg" />
+        <div class="ProductDetails">
+            <span class="ProductName">Cristiano Ronaldo</span>
+            <span class="ProductID">7</span>
+        </div>
+    </div>   
+    <div class="Product">
+        <img src="Week5/Jayson-Tatum-dunk-60a0366f84134-scaled.webp" />
+        <div class="ProductDetails"> 
+            <span class="ProductName">Jayson Tatum</span>     
+            <span class="ProductID">0</span> 
+        </div>
+    </div>
+</div>
+</body>
+</html>            
