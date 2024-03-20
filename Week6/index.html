@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="txta">
+    <input type="text" id="txtb">
+    <button onclick="tinhtong();">
+        Tinh tong
+    </button>
+    <label id="ket qua">
+        Ket qua; <p id="tong"></p>
+    </label>    
+</body>
+<script>
+    function tinhtong(){
+        var a = document.getElementById('txta').value;
+        var b = document.getElementById('txtb').value;
+        var tong = parseInt(a) + parseInt(b);
+        document.getElementById('txta').value = '';
+        document.getElementById('txtb').value = '';
+        document.getElementById('tong').innerHTML = tong;
+        //alert(tong);
+    }
+</script>
+</html>

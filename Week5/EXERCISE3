@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Create product list with CSS3</title>
+<title>Thong tin  sinh vien </title>
 <style type="text/css">
 .ProductDetails {display: none;}
 .Product img {
